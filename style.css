@@ -1,0 +1,265 @@
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+ Body {
+background-image:url(Bronco.jpg);
+background-position: top left;
+background-repeat: repeat, repeat;
+ background-size: cover;
+}
+
+.grid-box {
+        display:grid;
+        grid-template-columns: 2fr 2fr .3fr;
+        grid-column-gap: 10px;
+        grid-auto-rows: 100%;
+}
+.grid-box1 {
+        display:grid;
+        grid-template-columns: .3fr 2fr 2fr;
+        grid-column-gap: 10px;
+        grid-auto-rows: 100%;
+        margin-top: 10px;
+        
+}
+
+.D_header_1 {
+  display: grid;
+  grid-template: auto / auto  ;
+  grid-gap: 10px;
+  background-color: lightblue;
+  padding: 10px;
+  
+}
+.D_header_1_1 {
+        font-size: 100px;
+        text-align: center;
+        float: center;
+}
+
+
+        
+.donate_1 {
+        color:black ;
+        cursor: grab;
+}
+.donate_2 {
+        color:black;
+        cursor: grab;
+}
+.donate_3 {
+        color:black;
+        cursor: grab;
+}
+.donate_4 {
+        color:black;
+        cursor: grab;
+}
+.donate_5 {
+        color:black;
+        cursor: grab;
+}
+.donate_6 {
+        color:black;
+        cursor: grab;
+}
+
+
+.grid-box-4 {
+  display: grid;
+  grid-template: 250px 250px / auto auto auto  ;
+  grid-gap: 10px;
+  background-color: lightskyblue;
+  padding: 10px;
+  opacity: .89;
+}
+.grid-box-4 > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+  
+    .grid-box-4:hover{
+      background-color: #5eaadd;
+      color:white;
+      opacity: .85;
+    }
+.donate_1:hover{
+      background-color: darkblue;
+      color:white;
+      opacity: .85;
+    } 
+.donate_2:hover{
+      background-color: darkblue;
+      color:white;
+      opacity: .85;
+    }
+.donate_3:hover{
+      background-color: darkblue;
+      color:white;
+      opacity: .85;
+    }
+.donate_4:hover{
+      background-color:darkblue;
+      color:white;
+      opacity: .85;
+    }
+.donate_5:hover{
+      background-color:darkblue;
+      color:white;
+      opacity: .85;
+    }
+.donate_6:hover{
+      background-color: darkblue;
+      color:white;
+      opacity: .85;
+    }
+
+
+
+
+
+div.floatr {
+        padding-top:.7%;
+        Float: Right;
+       }
+div.main {
+        Background-color:lightBlue;
+        opacity: .99;
+        width:50vw
+}
+
+h1 {color:Darkbrown;
+   font-size: 300%;
+   text-decoration: underline;}
+
+
+input:focus {
+  background-color: lightgray;
+}
+
+div.gridbox1 {
+        Background-color: lightgray; 
+        opacity: .9;
+        padding: 5px;
+        float: left;
+
+}
+
+
+div.gridbox2 {
+        Background-color:lightBlue;
+        opacity: .93;
+        padding: 5px;
+}
+
+div.gridbox3 {
+        background-image: url(Background1.jpg);
+        background-size: cover;
+        width: 80px;
+        height: 600px;
+      
+}
+
+div.gridbox4 {
+        Background-color:lightgray;
+        width: 100px;
+      
+}
+
+
+.flex-grid-thirds {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-grid-half .col {
+  width: 50%;
+}
+
+
+#container {
+        display:flex;
+        margin-bottom: 10px;
+        background-color: #333;
+        animation-name: header_t1;
+        animation-duration: 1.5s;
+}
+
+#container1 {
+        display:flex;
+        margin-bottom: 10px;
+        
+}
+div.c_b_2 {
+        float:right;
+        background-color: #444;
+        margin-left: 20px;
+        height: 150px;
+        width: 600px;
+        color:white;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+@keyframes header_t1 {
+  0%   {background-color:  #333;}
+  25%  {background-color: blue;}
+  50%  {background-color: darkblue;}
+  100% {background-color:  #333;}
+}
+
+
+
+
+        
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
